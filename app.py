@@ -130,7 +130,6 @@ if st.button("Predict", type="primary", use_container_width=True):
 
 st.divider()
 st.caption(
-    "LightGBM model trained on MIMIC-IV (n = 7,046) · "
-    "Externally validated on eICU-CRD (n = 1,053) · "
-    "Internal AUC 0.727 · External AUC 0.625 · For research use only"
+    "LightGBM model trained on MIMIC-IV · Validated on eICU-CRD · "
+    "For research use only — not a substitute for clinical judgement"
 )
