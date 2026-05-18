@@ -1,1 +1,0 @@
-['apsiii', 'invasive_mechanical_ventilation', 'chloride_max', 'heart_rate_max', 'mbp_min', 'gcs_score', 'spo2_min', 'platelet_min', 'sbp_min', 'respiratory_rate_min', 'glucose_min', 'sodium_max', 'sbp_max']
