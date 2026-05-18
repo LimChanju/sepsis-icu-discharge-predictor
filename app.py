@@ -1,5 +1,5 @@
 import streamlit as st
-import pickle
+import joblib
 import numpy as np
 import pandas as pd
 import plotly.graph_objects as go
@@ -12,8 +12,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
-    with open("LightGBM_20260517_160400.pkl", "rb") as f:
-        return pickle.load(f)
+    return joblib.load("LightGBM_20260517_160400.pkl")
 
 model = load_model()
 THRESHOLD = 0.519
